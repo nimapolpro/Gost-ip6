@@ -127,7 +127,7 @@ systemctl enable sysctl-custom
     else
         if [ "$gost_version_choice" -eq 2 ]; then
     echo $'\e[32mInstalling Gost version 3.0.0, please wait...\e[0m'
-    wget -O /tmp/gost.tar.gz https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20240426/gost_3.0.0-nightly.20240426_linux_amd64.tar.gz
+    wget -O /tmp/gost.tar.gz https://github.com/go-gost/gost/releases/download/v3.0.0-nightly.20240614/gost_3.0.0-nightly.20240614_linux_amd64.tar.gz
     tar -xvzf /tmp/gost.tar.gz -C /usr/local/bin/
     chmod +x /usr/local/bin/gost
     echo $'\e[32mGost installed successfully.\e[0m'
@@ -233,7 +233,7 @@ elif [ "$choice" -eq 4 ]; then
         echo $'\e[32mUpdating Gost, please wait...\e[0m'
         # Save install.sh in /etc/gost directory
         sudo mkdir -p /etc/gost
-wget -O /etc/gost/install.sh https://github.com/masoudgb/Gost-ip6/raw/main/install.sh
+wget -O /etc/gost/install.sh https://github.com/Habib1385/Gost-ip6/raw/main/install.sh
 chmod +x /etc/gost/install.sh
         echo $'\e[32mUpdate completed.\e[0m'
     else
