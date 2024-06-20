@@ -27,23 +27,7 @@ Clone the repository:
 bash <(curl -Ls https://raw.githubusercontent.com/masoudgb/Gost-ip6/main/install.sh)
    ```
 
-Custom Version: 
-
-```bash
-bash <(curl -Ls https://github.com/masoudgb/Gost-ip6/raw/v2.1.7/Gost.sh)
-   ```
-
 Follow the on-screen prompts to configure Gost tunnels according to your preferences.
-
-
-## Project Tutorial
-
-[![YouTube Tutorial](https://img.youtube.com/vi/LJYVWH8GyKM/0.jpg)](https://youtu.be/LJYVWH8GyKM)
-
----
-
-[![YouTube Tutorial](https://img.youtube.com/vi/Qlz61mlkQ5A/0.jpg)](https://youtu.be/Qlz61mlkQ5A)
-
 
 **Options:**
 
@@ -69,14 +53,3 @@ The script offers the following options:
 - Choose port ranges between 54 and 65000 for optimal configuration.
 - Your suggestions for script improvement and enhancement are highly welcomed. Feel free to share your ideas on the [GitHub repository](https://github.com/masoudgb/Gost-ip6/issues).
 
-
-**Credits:**
-
-- Created By Masoud Gb
-- Special Thanks to Hamid Router
-
-## Version
-
-Gost IP6 Script v2.2.0
-
----
